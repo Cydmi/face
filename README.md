@@ -1,12 +1,13 @@
 ###use
 ```
 1.支持ADM CMD
-<script type="text/javascript" src="./dist/face.min.js"></script>
- <script type="text/javascript">
-
-     new Face({ elemObj: document.getElementById('text'),
-                emojiBox: document.getElementById('emoji-box')
-           })
-  </script>
+  var face=new Face({
+        elemObj: document.getElementById('text'),
+        emojiBox: document.getElementById('emoji-box')
+    });
+  face.init();
+  document.getElementById('release').onclick=function () {
+      document.getElementById('text-show').innerHTML=face.compileFace();
+  }
   ```
   ![](./images/demoimg/demo.gif)
