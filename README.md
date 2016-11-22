@@ -1,6 +1,12 @@
+[![npm](https://img.shields.io/npm/l/express.svg)]()
 ###use
+
 ```
-1.支持ADM CMD
+1.script
+
+    <link type="text/css" rel="stylesheet" href="./css/face.css">
+	<script type="text/javascript" src="./dist/face.min.js"></script>
+
   var face=new Face({
         elemObj: document.getElementById('text'),
         emojiBox: document.getElementById('emoji-box')
@@ -9,5 +15,11 @@
   document.getElementById('release').onclick=function () {
       document.getElementById('text-show').innerHTML=face.compileFace();
   }
-  ```
-  ![](./images/demoimg/demo.gif)
+  
+ 2. amd cmd
+	 require("emoji-face")
+ 	 import Face from 'emoji-face'
+ 	
+```
+  ![](http://www.github.com/Cydmi/face/raw/master/images/demoimg/demo.gif)
+  
