@@ -21,5 +21,5 @@
  	 import Face from 'emoji-face'
  	
 ```
-  ![](http://www.github.com/Cydmi/face/raw/master/images/demoimg/demo.gif)
+  ![](./images/demoimg/demo.gif)
   
