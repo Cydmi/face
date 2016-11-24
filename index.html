@@ -41,7 +41,7 @@
     });
   face.init();
   document.getElementById('release').onclick=function () {
-      document.getElementById('text-show').innerHTML=face.compileFace();
+      document.getElementById('text-show').innerHTML=face.compileFace(document.getElementById('text').value);
   }
 </script>
 </body>

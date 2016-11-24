@@ -1,6 +1,6 @@
 {
   "name": "emoji-face",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "emoji表情 qq 表情",
   "main": "./dist/face.min.js",
   "scripts": {
