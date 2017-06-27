@@ -1,6 +1,6 @@
 
 [![npm](https://img.shields.io/npm/l/express.svg)]()
-[![Package Quality](http://npm.packagequality.com/badge/emoji-face.png)](http://packagequality.com/#?package=emoji-face)
+[![Package Quality](http://npm.packagequality.com/shield/emoji-face.svg)](http://packagequality.com/#?package=emoji-face)
 ```
 1.script
 
